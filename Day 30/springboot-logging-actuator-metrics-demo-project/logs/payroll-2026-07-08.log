@@ -1,0 +1,944 @@
+2026-07-08 14:57:00
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Starting SpringbootLoggingActuatorMetricsDemoProjectApplication using Java 21.0.10 with PID 40564 (D:\DXC Training 2026\workspace\SpringBoot\springboot-logging-actuator-metrics-demo-project\target\classes started by Sujata in D:\DXC Training 2026\workspace\SpringBoot\springboot-logging-actuator-metrics-demo-project)
+2026-07-08 14:57:00
+				[main]
+				DEBUG
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-08 14:57:00
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				No active profile set, falling back to 1 default profile: "default"
+2026-07-08 14:57:01
+				[main]
+				INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate
+				-
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-08 14:57:01
+				[main]
+				INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate
+				-
+				Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2026-07-08 14:57:01
+				[main]
+				INFO 
+				o.s.boot.tomcat.TomcatWebServer
+				-
+				Tomcat initialized with port 8085 (http)
+2026-07-08 14:57:01
+				[main]
+				INFO 
+				o.a.catalina.core.StandardService
+				-
+				Starting service [Tomcat]
+2026-07-08 14:57:01
+				[main]
+				INFO 
+				o.a.catalina.core.StandardEngine
+				-
+				Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-08 14:57:01
+				[main]
+				INFO 
+				o.s.b.w.c.s.WebApplicationContextInitializer
+				-
+				Root WebApplicationContext: initialization completed in 1009 ms
+2026-07-08 14:57:02
+				[main]
+				INFO 
+				org.hibernate.orm.jpa
+				-
+				HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-08 14:57:02
+				[main]
+				INFO 
+				org.hibernate.orm.core
+				-
+				HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-08 14:57:02
+				[main]
+				INFO 
+				o.s.o.j.p.SpringPersistenceUnitInfo
+				-
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-08 14:57:02
+				[main]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Starting...
+2026-07-08 14:57:02
+				[main]
+				INFO 
+				com.zaxxer.hikari.pool.HikariPool
+				-
+				HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@63636de0
+2026-07-08 14:57:02
+				[main]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Start completed.
+2026-07-08 14:57:02
+				[main]
+				WARN 
+				org.hibernate.orm.core
+				-
+				HHH000511: The 10.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2026-07-08 14:57:02
+				[main]
+				WARN 
+				org.hibernate.orm.deprecation
+				-
+				HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-08 14:57:02
+				[main]
+				WARN 
+				org.hibernate.orm.jdbc
+				-
+				HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-07-08 14:57:02
+				[main]
+				INFO 
+				o.hibernate.orm.connections.pooling
+				-
+				HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521:XE]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 10.2
+	Default catalog/schema: undefined/SYSTEM
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-08 14:57:03
+				[main]
+				INFO 
+				org.hibernate.orm.core
+				-
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-08 14:57:03
+				[main]
+				INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 14:57:03
+				[main]
+				INFO 
+				o.s.d.j.r.q.QueryEnhancerFactories
+				-
+				Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-08 14:57:04
+				[main]
+				WARN 
+				o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration
+				-
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-08 14:57:04
+				[main]
+				INFO 
+				o.s.b.a.e.web.EndpointLinksResolver
+				-
+				Exposing 1 endpoint beneath base path '/actuator'
+2026-07-08 14:57:04
+				[main]
+				INFO 
+				o.s.boot.tomcat.TomcatWebServer
+				-
+				Tomcat started on port 8085 (http) with context path '/'
+2026-07-08 14:57:04
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Started SpringbootLoggingActuatorMetricsDemoProjectApplication in 4.3 seconds (process running for 4.78)
+2026-07-08 14:57:05
+				[RMI TCP Connection(10)-127.0.0.1]
+				INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]
+				-
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-08 14:57:05
+				[RMI TCP Connection(10)-127.0.0.1]
+				INFO 
+				o.s.web.servlet.DispatcherServlet
+				-
+				Initializing Servlet 'dispatcherServlet'
+2026-07-08 14:57:05
+				[RMI TCP Connection(10)-127.0.0.1]
+				INFO 
+				o.s.web.servlet.DispatcherServlet
+				-
+				Completed initialization in 2 ms
+2026-07-08 15:03:07
+				[HikariPool-1:housekeeper]
+				WARN 
+				com.zaxxer.hikari.pool.HikariPool
+				-
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s211ms945µs900ns).
+2026-07-08 15:05:45
+				[http-nio-8085-exec-4]
+				INFO 
+				c.sujata.service.EmployeeServiceImpl
+				-
+				Finding Employee with ID 1
+2026-07-08 15:05:45
+				[http-nio-8085-exec-4]
+				INFO 
+				c.sujata.service.EmployeeServiceImpl
+				-
+				Employee successfully found with ID 1
+2026-07-08 15:06:15
+				[RMI TCP Connection(20)-127.0.0.1]
+				INFO 
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				-
+				Application shutdown requested.
+2026-07-08 15:06:15
+				[RMI TCP Connection(20)-127.0.0.1]
+				INFO 
+				o.s.boot.tomcat.GracefulShutdown
+				-
+				Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-08 15:06:15
+				[tomcat-shutdown]
+				INFO 
+				o.s.boot.tomcat.GracefulShutdown
+				-
+				Graceful shutdown complete
+2026-07-08 15:06:15
+				[RMI TCP Connection(20)-127.0.0.1]
+				INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 15:06:15
+				[RMI TCP Connection(20)-127.0.0.1]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Shutdown initiated...
+2026-07-08 15:06:15
+				[RMI TCP Connection(20)-127.0.0.1]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Shutdown completed.
+2026-07-08 15:06:45
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Starting SpringbootLoggingActuatorMetricsDemoProjectApplication using Java 21.0.10 with PID 9824 (D:\DXC Training 2026\workspace\SpringBoot\springboot-logging-actuator-metrics-demo-project\target\classes started by Sujata in D:\DXC Training 2026\workspace\SpringBoot\springboot-logging-actuator-metrics-demo-project)
+2026-07-08 15:06:45
+				[main]
+				DEBUG
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-08 15:06:45
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				No active profile set, falling back to 1 default profile: "default"
+2026-07-08 15:06:45
+				[main]
+				INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate
+				-
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-08 15:06:45
+				[main]
+				INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate
+				-
+				Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				o.s.boot.tomcat.TomcatWebServer
+				-
+				Tomcat initialized with port 8085 (http)
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				o.a.catalina.core.StandardService
+				-
+				Starting service [Tomcat]
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				o.a.catalina.core.StandardEngine
+				-
+				Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				o.s.b.w.c.s.WebApplicationContextInitializer
+				-
+				Root WebApplicationContext: initialization completed in 888 ms
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				org.hibernate.orm.jpa
+				-
+				HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				org.hibernate.orm.core
+				-
+				HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				o.s.o.j.p.SpringPersistenceUnitInfo
+				-
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Starting...
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				com.zaxxer.hikari.pool.HikariPool
+				-
+				HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@41581c3f
+2026-07-08 15:06:46
+				[main]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Start completed.
+2026-07-08 15:06:47
+				[main]
+				WARN 
+				org.hibernate.orm.core
+				-
+				HHH000511: The 10.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2026-07-08 15:06:47
+				[main]
+				WARN 
+				org.hibernate.orm.deprecation
+				-
+				HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-08 15:06:47
+				[main]
+				WARN 
+				org.hibernate.orm.jdbc
+				-
+				HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-07-08 15:06:47
+				[main]
+				INFO 
+				o.hibernate.orm.connections.pooling
+				-
+				HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521:XE]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 10.2
+	Default catalog/schema: undefined/SYSTEM
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-08 15:06:47
+				[main]
+				INFO 
+				org.hibernate.orm.core
+				-
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-08 15:06:47
+				[main]
+				INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 15:06:48
+				[main]
+				INFO 
+				o.s.d.j.r.q.QueryEnhancerFactories
+				-
+				Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-08 15:06:48
+				[main]
+				WARN 
+				o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration
+				-
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-08 15:06:48
+				[main]
+				INFO 
+				o.s.b.a.e.web.EndpointLinksResolver
+				-
+				Exposing 1 endpoint beneath base path '/actuator'
+2026-07-08 15:06:48
+				[main]
+				INFO 
+				o.s.boot.tomcat.TomcatWebServer
+				-
+				Tomcat started on port 8085 (http) with context path '/'
+2026-07-08 15:06:48
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Started SpringbootLoggingActuatorMetricsDemoProjectApplication in 4.053 seconds (process running for 4.563)
+2026-07-08 15:06:49
+				[RMI TCP Connection(7)-127.0.0.1]
+				INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]
+				-
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-08 15:06:49
+				[RMI TCP Connection(7)-127.0.0.1]
+				INFO 
+				o.s.web.servlet.DispatcherServlet
+				-
+				Initializing Servlet 'dispatcherServlet'
+2026-07-08 15:06:49
+				[RMI TCP Connection(7)-127.0.0.1]
+				INFO 
+				o.s.web.servlet.DispatcherServlet
+				-
+				Completed initialization in 2 ms
+2026-07-08 15:10:12
+				[RMI TCP Connection(14)-127.0.0.1]
+				INFO 
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				-
+				Application shutdown requested.
+2026-07-08 15:10:12
+				[RMI TCP Connection(14)-127.0.0.1]
+				INFO 
+				o.s.boot.tomcat.GracefulShutdown
+				-
+				Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-08 15:10:12
+				[tomcat-shutdown]
+				INFO 
+				o.s.boot.tomcat.GracefulShutdown
+				-
+				Graceful shutdown complete
+2026-07-08 15:10:12
+				[RMI TCP Connection(14)-127.0.0.1]
+				INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 15:10:13
+				[RMI TCP Connection(14)-127.0.0.1]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Shutdown initiated...
+2026-07-08 15:10:13
+				[RMI TCP Connection(14)-127.0.0.1]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Shutdown completed.
+2026-07-08 15:10:19
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Starting SpringbootLoggingActuatorMetricsDemoProjectApplication using Java 21.0.10 with PID 1212 (D:\DXC Training 2026\workspace\SpringBoot\springboot-logging-actuator-metrics-demo-project\target\classes started by Sujata in D:\DXC Training 2026\workspace\SpringBoot\springboot-logging-actuator-metrics-demo-project)
+2026-07-08 15:10:19
+				[main]
+				DEBUG
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-08 15:10:19
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				No active profile set, falling back to 1 default profile: "default"
+2026-07-08 15:10:19
+				[main]
+				INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate
+				-
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-08 15:10:19
+				[main]
+				INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate
+				-
+				Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				o.s.boot.tomcat.TomcatWebServer
+				-
+				Tomcat initialized with port 8085 (http)
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				o.a.catalina.core.StandardService
+				-
+				Starting service [Tomcat]
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				o.a.catalina.core.StandardEngine
+				-
+				Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				o.s.b.w.c.s.WebApplicationContextInitializer
+				-
+				Root WebApplicationContext: initialization completed in 967 ms
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				org.hibernate.orm.jpa
+				-
+				HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				org.hibernate.orm.core
+				-
+				HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				o.s.o.j.p.SpringPersistenceUnitInfo
+				-
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Starting...
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				com.zaxxer.hikari.pool.HikariPool
+				-
+				HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4a3bf37c
+2026-07-08 15:10:20
+				[main]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Start completed.
+2026-07-08 15:10:21
+				[main]
+				WARN 
+				org.hibernate.orm.core
+				-
+				HHH000511: The 10.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2026-07-08 15:10:21
+				[main]
+				WARN 
+				org.hibernate.orm.deprecation
+				-
+				HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-08 15:10:21
+				[main]
+				WARN 
+				org.hibernate.orm.jdbc
+				-
+				HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-07-08 15:10:21
+				[main]
+				INFO 
+				o.hibernate.orm.connections.pooling
+				-
+				HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521:XE]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 10.2
+	Default catalog/schema: undefined/SYSTEM
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-08 15:10:21
+				[main]
+				INFO 
+				org.hibernate.orm.core
+				-
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-08 15:10:21
+				[main]
+				INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 15:10:22
+				[main]
+				INFO 
+				o.s.d.j.r.q.QueryEnhancerFactories
+				-
+				Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-08 15:10:22
+				[main]
+				WARN 
+				o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration
+				-
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-08 15:10:22
+				[main]
+				INFO 
+				o.s.b.a.e.web.EndpointLinksResolver
+				-
+				Exposing 13 endpoints beneath base path '/actuator'
+2026-07-08 15:10:22
+				[main]
+				INFO 
+				o.s.boot.tomcat.TomcatWebServer
+				-
+				Tomcat started on port 8085 (http) with context path '/'
+2026-07-08 15:10:22
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Started SpringbootLoggingActuatorMetricsDemoProjectApplication in 4.07 seconds (process running for 4.582)
+2026-07-08 15:10:23
+				[RMI TCP Connection(6)-127.0.0.1]
+				INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]
+				-
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-08 15:10:23
+				[RMI TCP Connection(6)-127.0.0.1]
+				INFO 
+				o.s.web.servlet.DispatcherServlet
+				-
+				Initializing Servlet 'dispatcherServlet'
+2026-07-08 15:10:23
+				[RMI TCP Connection(6)-127.0.0.1]
+				INFO 
+				o.s.web.servlet.DispatcherServlet
+				-
+				Completed initialization in 2 ms
+2026-07-08 15:43:45
+				[HikariPool-1:housekeeper]
+				WARN 
+				com.zaxxer.hikari.pool.HikariPool
+				-
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m54s400ms434µs500ns).
+2026-07-08 15:49:03
+				[RMI TCP Connection(33)-127.0.0.1]
+				INFO 
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				-
+				Application shutdown requested.
+2026-07-08 15:49:03
+				[RMI TCP Connection(33)-127.0.0.1]
+				INFO 
+				o.s.boot.tomcat.GracefulShutdown
+				-
+				Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-08 15:49:03
+				[tomcat-shutdown]
+				INFO 
+				o.s.boot.tomcat.GracefulShutdown
+				-
+				Graceful shutdown complete
+2026-07-08 15:49:03
+				[RMI TCP Connection(33)-127.0.0.1]
+				INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 15:49:03
+				[RMI TCP Connection(33)-127.0.0.1]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Shutdown initiated...
+2026-07-08 15:49:03
+				[RMI TCP Connection(33)-127.0.0.1]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Shutdown completed.
+2026-07-08 15:53:49
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Starting SpringbootLoggingActuatorMetricsDemoProjectApplication using Java 21.0.10 with PID 12420 (D:\DXC Training 2026\workspace\SpringBoot\springboot-logging-actuator-metrics-demo-project\target\classes started by Sujata in D:\DXC Training 2026\workspace\SpringBoot\springboot-logging-actuator-metrics-demo-project)
+2026-07-08 15:53:49
+				[main]
+				DEBUG
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-08 15:53:49
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				No active profile set, falling back to 1 default profile: "default"
+2026-07-08 15:53:49
+				[main]
+				INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate
+				-
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-08 15:53:50
+				[main]
+				INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate
+				-
+				Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-07-08 15:53:50
+				[main]
+				INFO 
+				o.s.boot.tomcat.TomcatWebServer
+				-
+				Tomcat initialized with port 8085 (http)
+2026-07-08 15:53:50
+				[main]
+				INFO 
+				o.a.catalina.core.StandardService
+				-
+				Starting service [Tomcat]
+2026-07-08 15:53:50
+				[main]
+				INFO 
+				o.a.catalina.core.StandardEngine
+				-
+				Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-08 15:53:50
+				[main]
+				INFO 
+				o.s.b.w.c.s.WebApplicationContextInitializer
+				-
+				Root WebApplicationContext: initialization completed in 918 ms
+2026-07-08 15:53:50
+				[main]
+				INFO 
+				org.hibernate.orm.jpa
+				-
+				HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-08 15:53:50
+				[main]
+				INFO 
+				org.hibernate.orm.core
+				-
+				HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-08 15:53:51
+				[main]
+				INFO 
+				o.s.o.j.p.SpringPersistenceUnitInfo
+				-
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-08 15:53:51
+				[main]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Starting...
+2026-07-08 15:53:51
+				[main]
+				INFO 
+				com.zaxxer.hikari.pool.HikariPool
+				-
+				HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@87f6ab5
+2026-07-08 15:53:51
+				[main]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Start completed.
+2026-07-08 15:53:51
+				[main]
+				WARN 
+				org.hibernate.orm.core
+				-
+				HHH000511: The 10.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2026-07-08 15:53:51
+				[main]
+				WARN 
+				org.hibernate.orm.deprecation
+				-
+				HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-08 15:53:51
+				[main]
+				WARN 
+				org.hibernate.orm.jdbc
+				-
+				HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-07-08 15:53:51
+				[main]
+				INFO 
+				o.hibernate.orm.connections.pooling
+				-
+				HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521:XE]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 10.2
+	Default catalog/schema: undefined/SYSTEM
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-08 15:53:52
+				[main]
+				INFO 
+				org.hibernate.orm.core
+				-
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-08 15:53:52
+				[main]
+				INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 15:53:52
+				[main]
+				INFO 
+				o.s.d.j.r.q.QueryEnhancerFactories
+				-
+				Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-08 15:53:52
+				[main]
+				WARN 
+				o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration
+				-
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-08 15:53:53
+				[main]
+				INFO 
+				o.s.b.a.e.web.EndpointLinksResolver
+				-
+				Exposing 13 endpoints beneath base path '/actuator'
+2026-07-08 15:53:53
+				[main]
+				INFO 
+				o.s.boot.tomcat.TomcatWebServer
+				-
+				Tomcat started on port 8085 (http) with context path '/'
+2026-07-08 15:53:53
+				[main]
+				INFO 
+				c.s.d.SpringbootLoggingActuatorMetricsDemoProjectApplication
+				-
+				Started SpringbootLoggingActuatorMetricsDemoProjectApplication in 4.086 seconds (process running for 4.561)
+2026-07-08 15:53:53
+				[RMI TCP Connection(7)-127.0.0.1]
+				INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]
+				-
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-08 15:53:53
+				[RMI TCP Connection(7)-127.0.0.1]
+				INFO 
+				o.s.web.servlet.DispatcherServlet
+				-
+				Initializing Servlet 'dispatcherServlet'
+2026-07-08 15:53:53
+				[RMI TCP Connection(7)-127.0.0.1]
+				INFO 
+				o.s.web.servlet.DispatcherServlet
+				-
+				Completed initialization in 3 ms
+2026-07-08 15:54:21
+				[http-nio-8085-exec-1]
+				INFO 
+				c.sujata.service.EmployeeServiceImpl
+				-
+				Finding Employee with ID 1
+2026-07-08 15:54:21
+				[http-nio-8085-exec-1]
+				INFO 
+				c.sujata.service.EmployeeServiceImpl
+				-
+				Employee successfully found with ID 1
+2026-07-08 15:54:28
+				[http-nio-8085-exec-3]
+				INFO 
+				c.sujata.service.EmployeeServiceImpl
+				-
+				Finding Employee with ID 4
+2026-07-08 15:54:28
+				[http-nio-8085-exec-3]
+				INFO 
+				c.sujata.service.EmployeeServiceImpl
+				-
+				Employee successfully found with ID 4
+2026-07-08 16:17:15
+				[HikariPool-1:housekeeper]
+				WARN 
+				com.zaxxer.hikari.pool.HikariPool
+				-
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m23s517ms873µs200ns).
+2026-07-08 16:57:44
+				[HikariPool-1:housekeeper]
+				WARN 
+				com.zaxxer.hikari.pool.HikariPool
+				-
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m28s855ms784µs500ns).
+2026-07-08 17:23:22
+				[RMI TCP Connection(40)-127.0.0.1]
+				INFO 
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				-
+				Application shutdown requested.
+2026-07-08 17:23:22
+				[RMI TCP Connection(40)-127.0.0.1]
+				INFO 
+				o.s.boot.tomcat.GracefulShutdown
+				-
+				Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-08 17:23:22
+				[tomcat-shutdown]
+				INFO 
+				o.s.boot.tomcat.GracefulShutdown
+				-
+				Graceful shutdown complete
+2026-07-08 17:23:22
+				[RMI TCP Connection(40)-127.0.0.1]
+				INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 17:23:22
+				[RMI TCP Connection(40)-127.0.0.1]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Shutdown initiated...
+2026-07-08 17:23:22
+				[RMI TCP Connection(40)-127.0.0.1]
+				INFO 
+				com.zaxxer.hikari.HikariDataSource
+				-
+				HikariPool-1 - Shutdown completed.
